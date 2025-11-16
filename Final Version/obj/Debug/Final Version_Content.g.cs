@@ -8,6 +8,10 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("data/botconfig.json")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("data/generalknowledge.json")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("data/quizquestions.json")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("data/topicresponses.json")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("resources/message.wav")]
 
 

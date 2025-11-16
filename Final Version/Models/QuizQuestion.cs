@@ -1,11 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Final_Version
+namespace Final_Version.Models
 {
+    /// <summary>
+    /// Represents a quiz question with options, correct answer, and explanation
+    /// </summary>
     public class QuizQuestion
     {
         public string Question { get; set; }
@@ -14,3 +11,4 @@ namespace Final_Version
         public string Explanation { get; set; }
     }
 }
+

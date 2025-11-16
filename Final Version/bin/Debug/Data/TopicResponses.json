@@ -1,0 +1,32 @@
+{
+  "topics": {
+    "password_safety": {
+      "name": "Password Safety",
+      "keywords": ["password", "passcode", "login", "credentials", "passwords"],
+      "responses": [
+        "Always use strong, unique passwords for each account. A strong password should be at least 12 characters long, include a mix of uppercase letters, lowercase letters, numbers, and symbols, and avoid personal information like your name or birthdate. For example, instead of 'John123', use something like 'Tr0ub4dor&3xplor3r'. Consider using a password manager to generate and store complex passwords securely.",
+        "Make sure your passwords are complex and unique for every account. Aim for at least 12 characters with a combination of letters, numbers, and symbols, like 'P@ssw0rd#2025'. Avoid using easily guessable info, such as your birthday, and never reuse passwords—if one account is hacked, others could be at risk too.",
+        "Create strong passwords by using a mix of characters—uppercase, lowercase, numbers, and symbols—and make them at least 12 characters long. For instance, 'G7m!x9qL$2vP' is a good example. Don't use the same password across multiple sites, and consider a password manager to keep track of them securely."
+      ]
+    },
+    "phishing_scams": {
+      "name": "Phishing and Scams",
+      "keywords": ["scam", "phishing", "fraud", "hoax", "scamming"],
+      "responses": [
+        "Be cautious of emails asking for personal information. Scammers often disguise themselves as trusted organizations. For example, you might get an email saying your account is locked and asking you to click a link—don't! Always verify the sender's email address and contact the organization directly if unsure.",
+        "Phishing scams trick you into sharing sensitive info, like passwords, by posing as legitimate sources. For instance, a fake email might claim you've won a prize and ask for your bank details. Never click links in unsolicited messages, and double-check the sender's email for typos, like 'support@yourbannk.com'.",
+        "Scammers often use phishing to steal your data through fake emails or texts. An example is a message claiming your account needs 'urgent verification' with a link to a fake login page. Always hover over links to check the URL before clicking, and avoid sharing personal info with unknown contacts."
+      ]
+    },
+    "safe_browsing_privacy": {
+      "name": "Safe Browsing and Privacy",
+      "keywords": ["privacy", "security", "browsing", "data", "private", "2fa", "two-factor"],
+      "responses": [
+        "Protecting your privacy online starts with safe browsing habits. Always check that websites use HTTPS (look for the padlock icon in the browser), which ensures your data is encrypted. For example, 'https://www.example.com' is safer than 'http://example.com'. Be cautious about sharing personal information—avoid posting sensitive details like your address or phone number on social media.",
+        "Keep your online activity private by ensuring websites use HTTPS—check for the padlock in your browser. For instance, 'https://www.google.com' is secure, but 'http://' isn't. Use privacy settings on social media to limit who can see your posts, and enable two-factor authentication (2FA) for extra security.",
+        "Stay safe online by browsing securely—always use HTTPS websites, which encrypt your data (e.g., 'https://www.example.com'). Don't share personal details like your phone number publicly, and clear your browser cookies regularly to prevent tracking. Adding 2FA to your accounts also helps protect your privacy."
+      ]
+    }
+  }
+}
+

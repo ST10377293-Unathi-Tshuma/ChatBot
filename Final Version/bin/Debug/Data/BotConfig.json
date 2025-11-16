@@ -1,0 +1,26 @@
+{
+  "settings": {
+    "defaultUserName": "User",
+    "defaultFavoriteTopic": "privacy",
+    "maxResponseLength": 500,
+    "enableSentimentAnalysis": true,
+    "enableLearning": false,
+    "responseStyle": "friendly"
+  },
+  "commands": {
+    "startQuiz": ["start quiz", "begin quiz", "quiz", "take quiz"],
+    "viewTasks": ["view tasks", "show tasks", "list tasks", "tasks"],
+    "addTask": ["add task -", "create task -", "new task -"],
+    "viewLog": ["view log", "show log", "activity log"],
+    "deleteTask": ["delete task -", "remove task -"],
+    "completeTask": ["complete task -", "finish task -", "done task -"],
+    "remindMeTo": ["remind me to"]
+  },
+  "sentimentKeywords": {
+    "worried": ["worried", "scared", "anxious", "nervous", "afraid", "concerned"],
+    "curious": ["curious", "interested", "wondering", "want to know", "tell me"],
+    "frustrated": ["frustrated", "annoyed", "stuck", "confused", "don't understand"]
+  },
+  "followUpKeywords": ["tell me more", "what else?", "more", "explain", "elaborate", "details"]
+}
+

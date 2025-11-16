@@ -1,0 +1,8 @@
+{
+  "knowledge": {
+    "cybersecurity": "Cybersecurity is the practice of protecting computers, servers, mobile devices, electronic systems, networks, and data from digital attacks, unauthorized access, or damage. It involves a range of practices, like using strong passwords, enabling two-factor authentication, and keeping software updated. For example, a company might use firewalls and encryption to secure its data, while individuals can protect themselves by avoiding suspicious links and using antivirus software.",
+    "firewall": "A firewall is a security system that monitors and controls incoming and outgoing network traffic based on predefined rules. It acts like a barrier between your device and potential threats on the internet. For instance, a firewall might block unauthorized access to your computer while allowing safe connections, like accessing a trusted website. Firewalls are essential for both personal devices and business networks to prevent cyberattacks.",
+    "malware": "Malware, short for malicious software, is any program designed to harm or exploit a device, network, or user. Common types include viruses, worms, ransomware, and spyware. For example, ransomware can lock your files and demand payment to unlock them, while spyware might secretly track your activity. To protect yourself, always avoid downloading files from untrusted sources, keep your antivirus software updated, and be cautious with email attachments."
+  }
+}
+

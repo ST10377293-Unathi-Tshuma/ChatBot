@@ -1,0 +1,32 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "What is the minimum recommended length for a strong password?",
+      "options": ["6 characters", "8 characters", "12 characters", "16 characters"],
+      "correctAnswerIndex": 2,
+      "explanation": "A strong password should be at least 12 characters long to ensure better security, as recommended in password safety guidelines.",
+      "topic": "password_safety",
+      "difficulty": "easy"
+    },
+    {
+      "id": 2,
+      "question": "Which of these is a characteristic of a phishing email?",
+      "options": ["It uses HTTPS", "It asks for your password via a link", "It comes from a verified sender", "It has no links"],
+      "correctAnswerIndex": 1,
+      "explanation": "Phishing emails often trick users into sharing sensitive information, like passwords, by including links to fake login pages.",
+      "topic": "phishing_scams",
+      "difficulty": "easy"
+    },
+    {
+      "id": 3,
+      "question": "What does HTTPS indicate on a website?",
+      "options": ["The website is free", "The website is popular", "The website encrypts your data", "The website has no ads"],
+      "correctAnswerIndex": 2,
+      "explanation": "HTTPS ensures that your data is encrypted, making the website safer for sharing personal information.",
+      "topic": "safe_browsing_privacy",
+      "difficulty": "easy"
+    }
+  ]
+}
+

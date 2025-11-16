@@ -1,0 +1,95 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "What is the minimum recommended length for a strong password?",
+      "options": ["6 characters", "8 characters", "12 characters", "16 characters"],
+      "correctAnswerIndex": 2,
+      "explanation": "A strong password should be at least 12 characters long to ensure better security, as recommended in password safety guidelines.",
+      "topic": "password_safety",
+      "difficulty": "easy"
+    },
+    {
+      "id": 2,
+      "question": "Which of these is a characteristic of a phishing email?",
+      "options": ["It uses HTTPS", "It asks for your password via a link", "It comes from a verified sender", "It has no links"],
+      "correctAnswerIndex": 1,
+      "explanation": "Phishing emails often trick users into sharing sensitive information, like passwords, by including links to fake login pages.",
+      "topic": "phishing_scams",
+      "difficulty": "easy"
+    },
+    {
+      "id": 3,
+      "question": "What does HTTPS indicate on a website?",
+      "options": ["The website is free", "The website is popular", "The website encrypts your data", "The website has no ads"],
+      "correctAnswerIndex": 2,
+      "explanation": "HTTPS ensures that your data is encrypted, making the website safer for sharing personal information.",
+      "topic": "safe_browsing_privacy",
+      "difficulty": "easy"
+    },
+    {
+      "id": 4,
+      "question": "Why should you avoid reusing passwords across multiple sites?",
+      "options": ["It slows down your login", "It makes passwords harder to remember", "A hack on one site risks others", "It reduces password strength"],
+      "correctAnswerIndex": 2,
+      "explanation": "Reusing passwords means that if one account is hacked, other accounts using the same password are also at risk.",
+      "topic": "password_safety",
+      "difficulty": "medium"
+    },
+    {
+      "id": 5,
+      "question": "What should you check before clicking a link in an email?",
+      "options": ["The email subject", "The sender's email address", "The email's length", "The email's font"],
+      "correctAnswerIndex": 1,
+      "explanation": "Always verify the sender's email address to ensure it's legitimate and check the URL by hovering over links to avoid phishing scams.",
+      "topic": "phishing_scams",
+      "difficulty": "easy"
+    },
+    {
+      "id": 6,
+      "question": "What is a firewall used for?",
+      "options": ["Speeding up your internet", "Blocking unauthorized network access", "Storing passwords", "Encrypting emails"],
+      "correctAnswerIndex": 1,
+      "explanation": "A firewall monitors and controls network traffic to block unauthorized access, protecting your device from threats.",
+      "topic": "safe_browsing_privacy",
+      "difficulty": "medium"
+    },
+    {
+      "id": 7,
+      "question": "What is a common type of malware?",
+      "options": ["Firewall", "Ransomware", "HTTPS", "Password manager"],
+      "correctAnswerIndex": 1,
+      "explanation": "Ransomware is a type of malware that locks your files and demands payment to unlock them.",
+      "topic": "safe_browsing_privacy",
+      "difficulty": "easy"
+    },
+    {
+      "id": 8,
+      "question": "What does enabling two-factor authentication (2FA) do?",
+      "options": ["Speeds up login", "Adds an extra layer of security", "Changes your password", "Disables cookies"],
+      "correctAnswerIndex": 1,
+      "explanation": "Two-factor authentication (2FA) adds an extra layer of security by requiring a second form of verification beyond your password.",
+      "topic": "safe_browsing_privacy",
+      "difficulty": "medium"
+    },
+    {
+      "id": 9,
+      "question": "What should you avoid sharing on social media to protect your privacy?",
+      "options": ["Your favorite color", "Your phone number", "Your hobbies", "Your pet's name"],
+      "correctAnswerIndex": 1,
+      "explanation": "Avoid sharing sensitive details like your phone number on social media to protect your privacy and reduce the risk of identity theft.",
+      "topic": "safe_browsing_privacy",
+      "difficulty": "easy"
+    },
+    {
+      "id": 10,
+      "question": "What is a good practice to prevent tracking while browsing?",
+      "options": ["Using the same browser", "Clearing browser cookies regularly", "Disabling HTTPS", "Sharing your location"],
+      "correctAnswerIndex": 1,
+      "explanation": "Clearing browser cookies regularly helps prevent tracking by removing data that websites use to monitor your activity.",
+      "topic": "safe_browsing_privacy",
+      "difficulty": "medium"
+    }
+  ]
+}
+

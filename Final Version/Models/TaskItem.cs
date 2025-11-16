@@ -1,11 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System;
 
-namespace Final_Version
+namespace Final_Version.Models
 {
+    /// <summary>
+    /// Represents a task item with title, description, reminder, and completion status
+    /// </summary>
     public class TaskItem
     {
         public string Title { get; set; }
@@ -14,3 +13,4 @@ namespace Final_Version
         public bool IsCompleted { get; set; }
     }
 }
+

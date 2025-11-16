@@ -1,0 +1,343 @@
+<Window x:Class="Final_Version.UI.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Cybersecurity Chat Bot" Height="700" Width="1000" 
+        WindowStartupLocation="CenterScreen"
+        Background="#F8F9FA"
+        ResizeMode="CanResize">
+    <Window.Resources>
+        <!-- Modern Button Style -->
+        <Style x:Key="ModernButton" TargetType="Button">
+            <Setter Property="Background" Value="#4A90E2"/>
+            <Setter Property="Foreground" Value="White"/>
+            <Setter Property="BorderThickness" Value="0"/>
+            <Setter Property="Padding" Value="15,10"/>
+            <Setter Property="FontSize" Value="13"/>
+            <Setter Property="FontWeight" Value="SemiBold"/>
+            <Setter Property="Cursor" Value="Hand"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border Background="{TemplateBinding Background}" 
+                                CornerRadius="6" 
+                                Padding="{TemplateBinding Padding}">
+                            <Border.Effect>
+                                <DropShadowEffect Color="#40000000" Direction="270" ShadowDepth="2" BlurRadius="4" Opacity="0.3"/>
+                            </Border.Effect>
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+            <Style.Triggers>
+                <Trigger Property="IsMouseOver" Value="True">
+                    <Setter Property="Background" Value="#357ABD"/>
+                </Trigger>
+                <Trigger Property="IsPressed" Value="True">
+                    <Setter Property="Background" Value="#2E6DA4"/>
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+
+        <!-- Primary Button Style -->
+        <Style x:Key="PrimaryButton" TargetType="Button" BasedOn="{StaticResource ModernButton}">
+            <Setter Property="Background" Value="#2ECC71"/>
+            <Style.Triggers>
+                <Trigger Property="IsMouseOver" Value="True">
+                    <Setter Property="Background" Value="#27AE60"/>
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+
+        <!-- Danger Button Style -->
+        <Style x:Key="DangerButton" TargetType="Button" BasedOn="{StaticResource ModernButton}">
+            <Setter Property="Background" Value="#E74C3C"/>
+            <Style.Triggers>
+                <Trigger Property="IsMouseOver" Value="True">
+                    <Setter Property="Background" Value="#C0392B"/>
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+
+        <!-- Modern TextBox Style -->
+        <Style x:Key="ModernTextBox" TargetType="TextBox">
+            <Setter Property="Padding" Value="12,10"/>
+            <Setter Property="FontSize" Value="13"/>
+            <Setter Property="BorderThickness" Value="1"/>
+            <Setter Property="BorderBrush" Value="#D1D5DB"/>
+            <Setter Property="Background" Value="White"/>
+            <Setter Property="Foreground" Value="#1F2937"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="TextBox">
+                        <Border Background="{TemplateBinding Background}" 
+                                BorderBrush="{TemplateBinding BorderBrush}" 
+                                BorderThickness="{TemplateBinding BorderThickness}"
+                                CornerRadius="6"
+                                Padding="{TemplateBinding Padding}">
+                            <ScrollViewer x:Name="PART_ContentHost" Margin="0"/>
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+            <Style.Triggers>
+                <Trigger Property="IsFocused" Value="True">
+                    <Setter Property="BorderBrush" Value="#4A90E2"/>
+                    <Setter Property="BorderThickness" Value="2"/>
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+
+        <!-- Rounded Input TextBox Style -->
+        <Style x:Key="RoundedInputTextBox" TargetType="TextBox" BasedOn="{StaticResource ModernTextBox}">
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="TextBox">
+                        <Border Background="{TemplateBinding Background}" 
+                                BorderBrush="{TemplateBinding BorderBrush}" 
+                                BorderThickness="{TemplateBinding BorderThickness}"
+                                CornerRadius="20"
+                                Padding="15,10">
+                            <ScrollViewer x:Name="PART_ContentHost" Margin="0"/>
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+            <Style.Triggers>
+                <Trigger Property="IsFocused" Value="True">
+                    <Setter Property="BorderBrush" Value="#4A90E2"/>
+                    <Setter Property="BorderThickness" Value="2"/>
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+
+        <!-- Card Style -->
+        <Style x:Key="CardStyle" TargetType="Border">
+            <Setter Property="Background" Value="White"/>
+            <Setter Property="CornerRadius" Value="8"/>
+            <Setter Property="Padding" Value="20"/>
+            <Setter Property="Margin" Value="0,0,0,15"/>
+            <Setter Property="Effect">
+                <Setter.Value>
+                    <DropShadowEffect Color="#20000000" Direction="270" ShadowDepth="3" BlurRadius="8" Opacity="0.15"/>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </Window.Resources>
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <!-- Header Section -->
+        <Border Grid.Row="0">
+            <Border.Background>
+                <LinearGradientBrush StartPoint="0,0" EndPoint="1,0">
+                    <GradientStop Color="#667EEA" Offset="0"/>
+                    <GradientStop Color="#764BA2" Offset="1"/>
+                </LinearGradientBrush>
+            </Border.Background>
+            <Grid Margin="20,15">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="Auto"/>
+                </Grid.ColumnDefinitions>
+                <StackPanel>
+                    <TextBlock Text="🛡️ Cybersecurity Chat Bot" 
+                               FontSize="24" 
+                               FontWeight="Bold" 
+                               Foreground="White"
+                               Margin="0,0,0,5"/>
+                    <TextBlock Text="Your AI-powered cybersecurity assistant" 
+                               FontSize="13" 
+                               Foreground="#E0E0E0"
+                               Opacity="0.9"/>
+                </StackPanel>
+            </Grid>
+        </Border>
+
+        <!-- Main Content Area -->
+        <Grid Grid.Row="1" Margin="20,15">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="300"/>
+                <ColumnDefinition Width="*" MinWidth="400"/>
+            </Grid.ColumnDefinitions>
+
+            <!-- Left Panel - User Details Card -->
+            <Border Grid.Column="0" Style="{StaticResource CardStyle}" Margin="0,0,15,0">
+                <StackPanel>
+                    <TextBlock Text="👤 User Profile" 
+                               FontSize="16" 
+                               FontWeight="Bold" 
+                               Foreground="#1F2937"
+                               Margin="0,0,0,15"/>
+                    
+                    <StackPanel Margin="0,0,0,12">
+                        <TextBlock Text="Name" 
+                                   FontSize="12" 
+                                   FontWeight="SemiBold" 
+                                   Foreground="#6B7280"
+                                   Margin="0,0,0,5"/>
+                        <TextBox x:Name="NameTextBox" 
+                                 Text="User" 
+                                 Style="{StaticResource ModernTextBox}"/>
+                    </StackPanel>
+
+                    <StackPanel Margin="0,0,0,15">
+                        <TextBlock Text="Favorite Topic" 
+                                   FontSize="12" 
+                                   FontWeight="SemiBold" 
+                                   Foreground="#6B7280"
+                                   Margin="0,0,0,5"/>
+                        <TextBox x:Name="FavoriteTopicTextBox" 
+                                 Text="privacy" 
+                                 Style="{StaticResource ModernTextBox}"/>
+                    </StackPanel>
+
+                    <Button x:Name="SetDetailsButton" 
+                            Content="✓ Update Profile" 
+                            Style="{StaticResource ModernButton}"
+                            Click="SetDetailsButton_Click"
+                            Margin="0,5,0,0"/>
+                </StackPanel>
+            </Border>
+
+            <!-- Right Panel - Chat Area -->
+            <Border Grid.Column="1" Style="{StaticResource CardStyle}" Padding="0">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                    </Grid.RowDefinitions>
+
+                    <!-- Chat Display -->
+                    <ScrollViewer x:Name="ChatScrollViewer" 
+                                 Grid.Row="0" 
+                                 VerticalScrollBarVisibility="Auto" 
+                                 HorizontalScrollBarVisibility="Disabled"
+                                 Padding="20"
+                                 Background="#FAFBFC"
+                                 BorderThickness="0">
+                        <TextBlock x:Name="ChatTextBlock" 
+                                   TextWrapping="Wrap" 
+                                   FontSize="13" 
+                                   Foreground="#374151"
+                                   LineHeight="22"
+                                   FontFamily="Segoe UI"/>
+                    </ScrollViewer>
+
+                    <!-- Quick Actions -->
+                    <Border Grid.Row="1" 
+                            Background="#F3F4F6" 
+                            BorderBrush="#E5E7EB" 
+                            BorderThickness="0,1,0,0"
+                            Padding="15,10">
+                        <StackPanel>
+                            <TextBlock Text="💡 Quick Actions:" 
+                                       FontSize="11" 
+                                       FontWeight="SemiBold" 
+                                       Foreground="#6B7280"
+                                       Margin="0,0,0,8"/>
+                            <WrapPanel>
+                                <Button Content="What is cybersecurity?" 
+                                        Click="QuickAction_Click"
+                                        Style="{StaticResource ModernButton}"
+                                        Background="#E3F2FD"
+                                        Foreground="#1976D2"
+                                        Padding="12,6"
+                                        Margin="0,0,8,8"
+                                        FontSize="11"
+                                        FontWeight="Normal"/>
+                                <Button Content="Tell me about passwords" 
+                                        Click="QuickAction_Click"
+                                        Style="{StaticResource ModernButton}"
+                                        Background="#E3F2FD"
+                                        Foreground="#1976D2"
+                                        Padding="12,6"
+                                        Margin="0,0,8,8"
+                                        FontSize="11"
+                                        FontWeight="Normal"/>
+                                <Button Content="How to stay safe online?" 
+                                        Click="QuickAction_Click"
+                                        Style="{StaticResource ModernButton}"
+                                        Background="#E3F2FD"
+                                        Foreground="#1976D2"
+                                        Padding="12,6"
+                                        Margin="0,0,8,8"
+                                        FontSize="11"
+                                        FontWeight="Normal"/>
+                                <Button Content="Start Quiz" 
+                                        Click="QuickAction_Click"
+                                        Style="{StaticResource ModernButton}"
+                                        Background="#E8F5E9"
+                                        Foreground="#388E3C"
+                                        Padding="12,6"
+                                        Margin="0,0,8,8"
+                                        FontSize="11"
+                                        FontWeight="Normal"/>
+                                <Button Content="View Tasks" 
+                                        Click="QuickAction_Click"
+                                        Style="{StaticResource ModernButton}"
+                                        Background="#FFF3E0"
+                                        Foreground="#F57C00"
+                                        Padding="12,6"
+                                        Margin="0,0,8,8"
+                                        FontSize="11"
+                                        FontWeight="Normal"/>
+                            </WrapPanel>
+                        </StackPanel>
+                    </Border>
+
+                    <!-- Input Area -->
+                    <Border Grid.Row="2" 
+                            Background="White" 
+                            BorderBrush="#E5E7EB" 
+                            BorderThickness="0,1,0,0"
+                            Padding="15">
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="*"/>
+                                <ColumnDefinition Width="Auto"/>
+                                <ColumnDefinition Width="Auto"/>
+                            </Grid.ColumnDefinitions>
+
+                            <TextBox x:Name="InputTextBox" 
+                                     Grid.Column="0"
+                                     Style="{StaticResource RoundedInputTextBox}"
+                                     Margin="0,0,10,0"
+                                     AcceptsReturn="False" 
+                                     KeyDown="InputTextBox_KeyDown"
+                                     VerticalContentAlignment="Center"
+                                     FontSize="13"
+                                     Text="What is cybersecurity?"
+                                     GotFocus="InputTextBox_GotFocus"
+                                     LostFocus="InputTextBox_LostFocus"
+                                     Foreground="#9CA3AF"/>
+
+                            <Button x:Name="SubmitButton" 
+                                    Grid.Column="1"
+                                    Content="Send" 
+                                    Style="{StaticResource PrimaryButton}"
+                                    Click="SubmitButton_Click"
+                                    Margin="0,0,10,0"
+                                    Padding="20,10"
+                                    MinWidth="80"/>
+
+                            <Button x:Name="ResetButton" 
+                                    Grid.Column="2"
+                                    Content="Reset" 
+                                    Style="{StaticResource DangerButton}"
+                                    Click="ResetButton_Click"
+                                    Padding="20,10"
+                                    MinWidth="80"/>
+                        </Grid>
+                    </Border>
+                </Grid>
+            </Border>
+        </Grid>
+    </Grid>
+</Window>
