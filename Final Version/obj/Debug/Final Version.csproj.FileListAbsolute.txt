@@ -1,0 +1,16 @@
+C:\Users\uthac\OneDrive\Documents\programing\C#\Final Version\Final Version\bin\Debug\Final Version.exe.config
+C:\Users\uthac\OneDrive\Documents\programing\C#\Final Version\Final Version\bin\Debug\Final Version.exe
+C:\Users\uthac\OneDrive\Documents\programing\C#\Final Version\Final Version\bin\Debug\Final Version.pdb
+C:\Users\uthac\OneDrive\Documents\programing\C#\Final Version\Final Version\obj\Debug\Final Version.csproj.AssemblyReference.cache
+C:\Users\uthac\OneDrive\Documents\programing\C#\Final Version\Final Version\obj\Debug\MainWindow.baml
+C:\Users\uthac\OneDrive\Documents\programing\C#\Final Version\Final Version\obj\Debug\MainWindow.g.cs
+C:\Users\uthac\OneDrive\Documents\programing\C#\Final Version\Final Version\obj\Debug\App.g.cs
+C:\Users\uthac\OneDrive\Documents\programing\C#\Final Version\Final Version\obj\Debug\Final Version_MarkupCompile.cache
+C:\Users\uthac\OneDrive\Documents\programing\C#\Final Version\Final Version\obj\Debug\Final Version.g.resources
+C:\Users\uthac\OneDrive\Documents\programing\C#\Final Version\Final Version\obj\Debug\Final_Version.Properties.Resources.resources
+C:\Users\uthac\OneDrive\Documents\programing\C#\Final Version\Final Version\obj\Debug\Final Version.csproj.GenerateResource.cache
+C:\Users\uthac\OneDrive\Documents\programing\C#\Final Version\Final Version\obj\Debug\Final Version.csproj.CoreCompileInputs.cache
+C:\Users\uthac\OneDrive\Documents\programing\C#\Final Version\Final Version\obj\Debug\Final Version.exe
+C:\Users\uthac\OneDrive\Documents\programing\C#\Final Version\Final Version\obj\Debug\Final Version.pdb
+C:\Users\uthac\OneDrive\Documents\programing\C#\Final Version\Final Version\obj\Debug\Final Version.exe.config
+C:\Users\uthac\OneDrive\Documents\programing\C#\Final Version\Final Version\obj\Debug\Final Version_Content.g.cs

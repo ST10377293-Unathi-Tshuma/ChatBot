@@ -1,0 +1,68 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\uthac\\OneDrive\\Documents\\programing\\C#\\Final Version\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9888FC01-71C9-44F7-8D19-69820CC712DB}|Final Version\\Final Version.csproj|c:\\users\\uthac\\onedrive\\documents\\programing\\c#\\final version\\final version\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9888FC01-71C9-44F7-8D19-69820CC712DB}|Final Version\\Final Version.csproj|solutionrelative:final version\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9888FC01-71C9-44F7-8D19-69820CC712DB}|Final Version\\Final Version.csproj|C:\\Users\\uthac\\OneDrive\\Documents\\programing\\C#\\Final Version\\final version\\bot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9888FC01-71C9-44F7-8D19-69820CC712DB}|Final Version\\Final Version.csproj|solutionrelative:final version\\bot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9888FC01-71C9-44F7-8D19-69820CC712DB}|Final Version\\Final Version.csproj|C:\\Users\\uthac\\OneDrive\\Documents\\programing\\C#\\Final Version\\final version\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{9888FC01-71C9-44F7-8D19-69820CC712DB}|Final Version\\Final Version.csproj|solutionrelative:final version\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Bot.cs",
+              "DocumentMoniker": "C:\\Users\\uthac\\OneDrive\\Documents\\programing\\C#\\Final Version\\Final Version\\Bot.cs",
+              "RelativeDocumentMoniker": "Final Version\\Bot.cs",
+              "ToolTip": "C:\\Users\\uthac\\OneDrive\\Documents\\programing\\C#\\Final Version\\Final Version\\Bot.cs",
+              "RelativeToolTip": "Final Version\\Bot.cs",
+              "ViewState": "AgIAALQBAAAAAAAAAADgv7YBAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-26T18:46:16.078Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\uthac\\OneDrive\\Documents\\programing\\C#\\Final Version\\Final Version\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Final Version\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\uthac\\OneDrive\\Documents\\programing\\C#\\Final Version\\Final Version\\MainWindow.xaml.cs",
+              "RelativeToolTip": "Final Version\\MainWindow.xaml.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAewDIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-26T18:42:55.235Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\uthac\\OneDrive\\Documents\\programing\\C#\\Final Version\\Final Version\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "Final Version\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\uthac\\OneDrive\\Documents\\programing\\C#\\Final Version\\Final Version\\MainWindow.xaml",
+              "RelativeToolTip": "Final Version\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-06-26T18:42:57.76Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
